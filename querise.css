@@ -1,0 +1,135 @@
+/* ===============================
+   📱 Responsive Styles
+   =============================== */
+
+/* General fix */
+body {
+  overflow-x: hidden;
+}
+
+/* ---------- Navbar ---------- */
+@media (max-width: 44em) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav a {
+    margin: 0;
+    font-size: 1rem;
+  }
+}
+
+/* ---------- Intro Section ---------- */
+@media (max-width: 44em) {
+  .intro {
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    background-color: #000; /* 🔥 Black background */
+    color: #fff; /* 🔥 White text */
+  }
+
+  .intro img {
+    margin: 0 0 1rem 0;
+    width: 120px;
+    height: 120px;
+  }
+
+  .intro h2 {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+
+  .intro p {
+    font-size: 1rem;
+    color: #fff;
+  }
+}
+
+/* ---------- About Me Section ---------- */
+@media (max-width: 44em) {
+  .about-me {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-text {
+    padding-right: 0;
+  }
+
+  .about-img {
+    margin-top: 1rem;
+    width: 120px;
+    height: 120px;
+  }
+}
+
+/* ---------- Projects Section ---------- */
+@media (max-width: 44em) {
+  .project-section {
+    color: #fff; /* 🔥 White text */
+    padding: 1.5rem 1rem;
+    border-radius: 5px;
+  }
+
+  .project-section h3 {
+    color: #fff;
+  }
+
+  .project-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card {
+    width: 90%;
+    margin-bottom: 1rem;
+    background-color: #1a1a1a; /* Slightly lighter black for contrast */
+    color: #fff;
+  }
+
+  .project-card h4,
+  .project-card p {
+    color: #fff;
+  }
+}
+
+/* ---------- Contact Section ---------- */
+@media (max-width: 44em) {
+  .contact-form {
+    width: 100%;
+    align-items: center;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 90%;
+  }
+
+  .contact-form button {
+    align-self: center;
+    width: 90%;
+  }
+}
+
+/* ---------- Footer ---------- */
+@media (max-width: 37.5em) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}
